@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Creator Briefs · WonderBiotics</title>
+<style>
+  :root{
+    --blue:#4A6FA5; --blue-dark:#3A5A8C; --ink:#2A3442; --ink-2:#5E6B7A;
+    --bg:#F7F8FA; --card:#FFFFFF; --line:#E3E8EE; --accent:#E85D75;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.5}
+  .wrap{max-width:720px;margin:0 auto;padding:2.2rem 1.1rem 3rem}
+  header{margin-bottom:1.6rem}
+  .eyebrow{font-size:.74rem;font-weight:700;letter-spacing:.08em;color:var(--accent);text-transform:uppercase;margin-bottom:.4rem}
+  h1{font-size:1.7rem;font-weight:800;color:var(--blue-dark)}
+  .sub{color:var(--ink-2);font-size:.95rem;margin-top:.4rem}
+  .grid{display:grid;gap:1rem;grid-template-columns:1fr}
+  @media(min-width:640px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+  .card{
+    display:flex;flex-direction:column;gap:.6rem;background:var(--card);
+    border:1px solid var(--line);border-radius:16px;padding:1.4rem;text-decoration:none;color:var(--ink);
+    transition:border-color .15s, transform .15s;
+  }
+  .card:hover{border-color:var(--blue);transform:translateY(-2px)}
+  .card .tag{font-size:.72rem;font-weight:700;color:var(--blue);background:#E8EEF5;border-radius:999px;padding:.25rem .7rem;align-self:flex-start}
+  .card h2{font-size:1.15rem;font-weight:700;color:var(--blue-dark)}
+  .card p{font-size:.88rem;color:var(--ink-2)}
+  .card .open{margin-top:auto;display:inline-flex;align-items:center;gap:.45rem;font-weight:700;font-size:.88rem;color:#fff;background:var(--blue);border-radius:999px;padding:.55rem 1rem;align-self:flex-start}
+  .card:hover .open{background:var(--blue-dark)}
+  .card .open svg{width:15px;height:15px}
+  footer{margin-top:2rem;font-size:.8rem;color:var(--ink-2);text-align:center}
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="eyebrow">WonderBiotics · Daily Fiber Mix</div>
+      <h1>Creator Briefs</h1>
+      <p class="sub">Select a brief to open the full content test brief.</p>
+    </header>
+
+    <div class="grid">
+      <a class="card" href="morala.html">
+        <span class="tag">4 video concepts</span>
+        <h2>Morala 3rd Collaboration (4/5)</h2>
+        <p>Date Night · Fake Belly · After-Meal · Red-Dress — TikTok content test brief.</p>
+        <span class="open">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          Open brief
+        </span>
+      </a>
+
+      <a class="card" href="nicoll.html">
+        <span class="tag">3 video concepts</span>
+        <h2>Nicoll Brief</h2>
+        <p>Shortened Original · Date Night Bloating · Morning Bloating — TikTok content test brief.</p>
+        <span class="open">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          Open brief
+        </span>
+      </a>
+    </div>
+
+    <footer>WonderBiotics creator content · internal reference only</footer>
+  </div>
+</body>
+</html>
